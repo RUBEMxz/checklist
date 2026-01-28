@@ -753,7 +753,10 @@ const CheckFlowPro = () => {
         <div className="bg-gradient-to-br from-red-600 via-red-700 to-red-800 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden">
           <div className="absolute inset-0 bg-black/10"></div>
           <div className="relative z-10">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">CheckFlow Pro</h1>
+            <div className="flex items-center gap-4 mb-4">
+              <img src="/touro.png" alt="CheckFlow Pro" className="h-16 w-16" />
+              <h1 className="text-4xl md:text-5xl font-bold">CheckFlow Pro</h1>
+            </div>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl">
               Sistema Completo de Gestão de Checklists Operacionais
             </p>
@@ -1450,6 +1453,7 @@ const CheckFlowPro = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
+              <img src="/touro.png" alt="CheckFlow Pro" className="h-10 w-10" />
               <h1 className="text-xl font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
                 CheckFlow Pro
               </h1>
